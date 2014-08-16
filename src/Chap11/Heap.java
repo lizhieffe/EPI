@@ -1,4 +1,4 @@
-package Chap10;
+package Chap11;
 
 public class Heap {
 	int[] array;
