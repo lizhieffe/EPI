@@ -1,6 +1,6 @@
-package Chap08;
+package Chap07;
 
-public class Q04 {
+public class Q03 {
 	public boolean isPalindrome(String s) {
 		if (s == null)
 			return false;
@@ -47,7 +47,7 @@ public class Q04 {
 	public static void main(String[] args) {
 		String s = "abcd dacba";
 		
-		Q04 service = new Q04();
+		Q03 service = new Q03();
 		System.out.println(service.isPalindrome(s));
 		
 	}
