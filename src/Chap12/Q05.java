@@ -1,5 +1,6 @@
 package Chap12;
 
+<<<<<<< HEAD
 public class Q05 {
 	int findIndexOfValue(int[] array, int val) {
 		if (array == null)
@@ -53,4 +54,11 @@ public class Q05 {
 		
 		System.out.println(new Q05().findIndexOfValue(array, val));
 	}
+=======
+/*
+ * skip
+ */
+public class Q05 {
+
+>>>>>>> FETCH_HEAD
 }
