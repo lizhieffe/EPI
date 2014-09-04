@@ -98,11 +98,11 @@ public class Heap {
 		return (i - 1) / 2;
 	}
 	
-	private int left(int i) {
+	public int left(int i) {
 		return i * 2 + 1;
 	}
 	
-	private int right(int i) {
+	public int right(int i) {
 		return i * 2 + 2;
 	}
 	
