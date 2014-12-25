@@ -1,4 +1,4 @@
-package Q20;
+package Chap20;
 
 import java.util.HashMap;
 import java.util.Map;
