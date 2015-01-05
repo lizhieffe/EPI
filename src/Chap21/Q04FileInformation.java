@@ -4,6 +4,8 @@ import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
 
+import Utils.FileUtil;
+
 public class Q04FileInformation {
 	
 	String content;
@@ -22,7 +24,7 @@ public class Q04FileInformation {
 	}
 	
 	public void loadFileContent() {
-		this.content = Q04FileUtil.readFile(file);
+		this.content = FileUtil.readFile(file);
 	}
 	
 	public Map<Integer, Q04HashCodeInformation> calculateAllHashCodes() {

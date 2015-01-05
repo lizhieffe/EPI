@@ -1,10 +1,13 @@
-package Chap21;
+package Utils;
 
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class Q04FileUtil {
+public class FileUtil {
+	/*
+	 * read file as a string
+	 */
 	public static String readFile(File file) {
 	   String content = null;
 		try {

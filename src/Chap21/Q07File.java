@@ -2,6 +2,8 @@ package Chap21;
 
 import java.io.File;
 
+import Utils.FileUtil;
+
 public class Q07File {
 	
 	private String content;
@@ -23,7 +25,7 @@ public class Q07File {
 	}
 	
 	private void loadFileContent() {
-		this.content = Q04FileUtil.readFile(file);
+		this.content = FileUtil.readFile(file);
 	}
 	
 	private void findAllWords() {
